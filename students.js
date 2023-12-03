@@ -45,31 +45,6 @@ class Group {
     }
 }
 
-// function showAverageMark(marks) {
-//     let sum = marks.reduce((a, c) => a + c, 0);
-//     let average = sum / marks.length;
-
-//     return average;
-// }
-
-// function showGrades(marks) {
-//     const grades = marks.map((mark, index) => {
-//         if (mark < 60) {
-//             grade = 'F';
-//         } else if (mark < 70) {
-//             grade = 'D';
-//         } else if (mark < 80) {
-//             grade = 'C';
-//         } else if (mark < 90) {
-//             grade = 'D';
-//         } else grade = 'A';
-
-//         return {student: `Student${index + 1}`, mark, grade};
-//        });
-
-//      return grades;  
-// }
-
 const group1 = new Group([10, 20, 50, 80, 70, 65, 99, 100, 30], "English");
 
 console.log(group1);
